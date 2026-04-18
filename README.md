@@ -27,7 +27,7 @@ Download all the files from this repository (the `.ps1` script and the `.bat` fi
 
 ### 2. Path Verification
 Open the `ConvertEmails.ps1` file in Notepad and ensure the folder path at the top matches your actual folder:
-```powershell
+powershell
 $folderPath = "C:\MyEmails"
 
 ### 3. Execute
