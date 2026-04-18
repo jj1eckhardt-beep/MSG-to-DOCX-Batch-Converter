@@ -23,12 +23,12 @@ Because this script uses COM object automation to tap into native desktop applic
 ## 🚀 How to Use
 
 ### 1. Repository Setup
-Download all the files from this repository (the `.ps1` script and the `.bat` file) and place them into the folder where your `.msg` files are stored (e.g., `C:\MyEmails`).
+Download files from this repository, (the `.ps1` script and the `.bat` file) and place them into the folder where your `.msg` files are stored (e.g., `C:\MyEmails`).
 
 ### 2. Path Verification
 Open the `ConvertEmails.ps1` file in Notepad and ensure the folder path at the top matches your actual folder:
 powershell
-$folderPath = "C:\MyEmails"
+$folderPath = "C:\MyEmails"  DEFAULT PATH
 
 ### 3. Execute
 1.	Ensure the Microsoft Outlook desktop app is completely closed to prevent security memory conflicts.
