@@ -53,17 +53,16 @@ Download files from this repository, (the `Latest.ps1` script and the `Launcher.
 Open the Launcher.bat file (It handles permissions and launching the UI). 
 
 ## 3. Execute
-1.	Ensure the Microsoft Outlook desktop app is completely closed to prevent security memory conflicts.
-2.	Use MASTER and ARCHIVE buttons to set the desired folder paths.
-3.	Use Radio buttons and Checkboxes to configure the desired output format.
-4.	
+1.	Use MASTER and ARCHIVE buttons to set the desired folder paths.
+2.	Use Radio buttons and Checkboxes to configure the desired output format and selections.
+3.	Start Archival Process, ABORT will pause, Start will resume and continue until finished
+4.	Reset clears selections
 
 ## ⚖️ License
-# THE ARCHIVIST  | Licensed under the MIT License
-# Copyright (c) 2024 jj1eckhardt
+This project is licensed under the MIT License and is free to download, share, or modify.
+Copyright (c) 2024 jj1eckhardt
 
 ## ☕ Support the Project
-
 If "THE ARCHIVIST" saved you some time or made your conversion easier, feel free to help keep the gears turning!
 
 * [**Support via Ko-fi**](https://ko-fi.com/kofisupporter19535)
