@@ -9,25 +9,37 @@ This project was born out of frustration with finding only paid, third-party sof
 
 ## 🚀 Key Features in v2.0
  **Triple-Output Engine:** Convert to Portable HTML, Microsoft Word (with OLE PDF embedding), or Lite Plain Text.
+ 
  **Smart Handshake:** Automatically connects to active Outlook/Word sessions to prevent "Server Execution" errors.
+ 
  **The Auditor:** A standalone indexing engine that crawls your archive to build a dynamic `INDEX.html`.
+ 
  **Interactive Dashboard:** Real-time stats including % Done, Items/sec, and Time Remaining.
+ 
  **Universal Attachment Handling:** Automatically extracts or embeds PDFs, XLSX, and DOCX files.
+ 
  **Deep Audit Mode:** Peeks into original source files to recover true "Sent Date" and "Sender" metadata.
   
 ## 📊 The Master Index (Audit Report)
   The crown jewel of The Archivist is the automated Index.html. This isn't just a list of files; it's a dynamic, dark-mode dashboard for your digital library.
+ 
  **Click-to-Sort Headers:** Instantly organize your entire archive by Date, Subject, or Sender with a single click—no page reload required.
+ 
  **Deep Audit Metadata:** Unlike standard file explorers, the Index peeks into the original email headers to display the True Sent Date and Sender Name, even if the files were moved or renamed.
+ 
  **Visual Status Bar:** High-visibility Cyan stats bar at the top displays the original source path, the archive destination, and the total item count.
+ 
  **Paperclip Quick-Links:** For HTML archives, green paperclip icons (📎) provide one-click access to extracted PDF attachments.
+ 
  **Universal Compatibility:** Self-contained and ultra-portable. The Index uses pure HTML/JS, meaning it works in any browser, on any device, forever—no internet connection or special software needed.
 
 
 ## 📋 Prerequisites
  Because this script currently uses COM object automation to tap into native desktop applications, you must have the following installed on your Windows machine:
  **Microsoft Outlook** (Desktop application)
+ 
  **Microsoft Word** (Desktop application)
+ 
  **PowerShell** (Built into Windows)
 
 *Note: Outlook and Word are only required on the host machine performing the conversion. The finished documents can be opened on any computer using free software like LibreOffice!*
