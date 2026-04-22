@@ -47,7 +47,9 @@ This project was born out of frustration with finding only paid, third-party sof
 ## 🚀 How to Use
 
 ## 1. Repository Setup
-Download files from this repository, (the `Latest.ps1` script and the `Launcher.bat` file) and place them into a folder.  Or download the .zip file and extract to a location of your choice.
+Download files from this repository, (the `Latest.ps1` script and the `Launcher.bat` file) and place them into a folder.  
+Or download the .zip file and extract to a location of your choice.  
+I encourage you to open the files in Notepad and inspect the code first before executing.
 
 ## 2. Open the UI
 Open the Launcher.bat file (It handles permissions and launching the UI). 
@@ -55,11 +57,11 @@ Open the Launcher.bat file (It handles permissions and launching the UI).
 ## 3. Execute
 1.	Use MASTER and ARCHIVE buttons to set the desired folder paths.
 2.	Use Radio buttons and Checkboxes to configure the desired output format and selections.
-3.	Start Archival Process, ABORT will pause, Start will resume and continue until finished
-4.	Reset clears selections
+3.	Start Archival Process, ABORT will pause, Start will resume and continue until finished.
+4.	Reset clears selections.
 
 ## ⚖️ License
-This project is licensed under the MIT License and is free to download, share, or modify.
+This project is licensed under the MIT License and is free to download, share, and modify.
 Copyright (c) 2024 jj1eckhardt
 
 ## ☕ Support the Project
