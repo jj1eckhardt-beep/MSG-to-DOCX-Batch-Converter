@@ -3,7 +3,7 @@
 
 Is a high-integrity archival tool designed to transform Outlook `.msg` files into permanent, searchable, and sortable digital libraries.
 
-A lightweight, free automation tool to batch convert Microsoft Outlook `.msg` files into modern Word `.docx` documents while physically embedding any attached files directly into the page. 
+A lightweight, free automation tool to batch convert Microsoft Outlook `.msg` files into universal `.html`, modern Word `.docx`, or plain text documents while handling any attached files as selected. 
 
 This project was born out of frustration with finding only paid, third-party software to extract and convert old archived `.msg` files. This solution is 100% free and runs locally on your machine.
 
