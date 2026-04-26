@@ -1,4 +1,4 @@
-# THE ARCHIVIST (v2.0.0)
+# THE ARCHIVIST 
 ### Universal Outlook Email Archival Suite:
 
 Is a high-integrity archival tool designed to transform Outlook `.msg` files into permanent, searchable, and sortable digital libraries.
@@ -7,7 +7,7 @@ A lightweight, free automation tool to batch convert Microsoft Outlook `.msg` fi
 
 This project was born out of frustration with finding only paid, third-party software to extract and convert old archived `.msg` files. This solution is 100% free and runs locally on your machine.
 
-## 🚀 Key Features in v2.0
+## 🚀 Key Features 
  **Triple-Output Engine:** Convert to Portable HTML, Microsoft Word (with OLE PDF embedding), or Lite Plain Text.
  
  **Smart Handshake:** Automatically connects to active Outlook/Word sessions to prevent "Server Execution" errors.
