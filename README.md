@@ -1,5 +1,5 @@
 # THE ARCHIVIST (v2.0.0)
-### Universal Outlook Email Archival Suite
+### Universal Outlook Email Archival Suite:
 
 Is a high-integrity archival tool designed to transform Outlook `.msg` files into permanent, searchable, and sortable digital libraries.
 
@@ -19,7 +19,8 @@ This project was born out of frustration with finding only paid, third-party sof
  **Universal Attachment Handling:** Automatically extracts or embeds PDFs, XLSX, and DOCX files.
  
  **Deep Audit Mode:** Peeks into original source files to recover true "Sent Date" and "Sender" metadata.
-  
+
+   
 ## 📊 The Master Index (Audit Report)
   The crown jewel of The Archivist is the automated Index.html. This isn't just a list of files; it's a dynamic, dark-mode dashboard for your digital library.
  
@@ -29,10 +30,9 @@ This project was born out of frustration with finding only paid, third-party sof
  
  **Visual Status Bar:** High-visibility Cyan stats bar at the top displays the original source path, the archive destination, and the total item count.
  
- **Paperclip Quick-Links:** For HTML archives, green paperclip icons (📎) provide one-click access to extracted PDF attachments.
+ **Paperclip Quick-Links:** For HTML archives, paperclip icons (📎) provide one-click access to Email parent folder containing .html and attachments.  Optimized for high-integrity text and attachment archival (perfect for students, educators, and project managers).
  
- **Universal Compatibility:** Self-contained and ultra-portable. The Index uses pure HTML/JS, meaning it works in any browser, on any device, forever—no internet connection or special software needed.
-<img width="1350" height="1005" alt="image" src="https://github.com/user-attachments/assets/c431c20b-2a5c-4f12-8f85-fc9aecf4b151" />
+ **Universal Compatibility:** Self-contained and ultra-portable. The Index uses pure HTML/JS, meaning it works in any browser, on any device, forever—no internet connection or 
 
 ## 📋 Prerequisites
  Because this script currently uses COM object automation to tap into native desktop applications, you must have the following installed on your Windows machine:
@@ -42,25 +42,38 @@ This project was born out of frustration with finding only paid, third-party sof
  
  **PowerShell** (Built into Windows)
 
-*Note: Outlook and Word are only required on the host machine performing the conversion. The finished documents can be opened on any computer using free software like LibreOffice!*
+*Note: Outlook and Word are only required on the host machine performing the conversion. (For Now) The finished documents can be opened on any computer using free software like LibreOffice!*
 
 ## 🚀 How to Use
 
 ## 1. Repository Setup
-Download files from this repository, (the `Latest.ps1` script and the `Launcher.bat` file) and place them into a folder.  
-Or download the .zip file and extract to a location of your choice.  
-I encourage you to open the files in Notepad and inspect the code first before executing.
+1. Download files from this repository, (the `Latest.ps1` script and the `Launcher.bat` file) and place them into a folder.  
+Or, download the .zip file and extract to a location of your choice.  
+2. I encourage you to open the files in Notepad and inspect the code first before executing.
 
 ## 2. Open the UI
 Open the Launcher.bat file (It handles permissions and launching the UI). 
-<img width="1336" height="820" alt="image" src="https://github.com/user-attachments/assets/5c7d9a4a-75e2-4456-be00-50198fe1ee99" />
 
 ## 3. Execute
 1.	Use MASTER and ARCHIVE buttons to set the desired folder paths.
 2.	Use Radio buttons and Checkboxes to configure the desired output format and selections.
 3.	Start Archival Process, ABORT will pause, Start will resume and continue until finished.
 4.	Reset clears selections.
-<img width="1341" height="1028" alt="image" src="https://github.com/user-attachments/assets/0db0476c-d83b-4773-9839-f99b819b870f" />
+   
+## 🖥️ System Screenshots
+UI Paths Set and Ready.
+<img width="1777" height="888" alt="image" src="https://github.com/user-attachments/assets/00a9d78f-36be-499d-9c46-e9aa9e8a4dfb" />
+Index.html
+<img width="1717" height="1247" alt="image" src="https://github.com/user-attachments/assets/96f3a260-6c53-4570-8a34-fd6acb99a594" />
+HTML and Docx Output with Headers side by side.
+<img width="1824" height="950" alt="image" src="https://github.com/user-attachments/assets/3581ccc2-c913-4197-9087-6ef84e129b22" />
+
+## 🖼️ Dashboard in Action
+Processing...
+<img width="1708" height="866" alt="image" src="https://github.com/user-attachments/assets/fbbfa6ac-a877-4c17-9dca-642efcf95f51" />
+<img width="1000" height="849" alt="image" src="https://github.com/user-attachments/assets/5dd0a938-d978-4b87-ab69-7702ddbae85a" />
+Done.
+<img width="992" height="882" alt="image" src="https://github.com/user-attachments/assets/9c26bcd3-ddaa-43d6-acef-d63dafca69fc" />
 
 ## ⚖️ License & Disclaimer
 This project is licensed under the MIT License.
