@@ -50,7 +50,7 @@ This project was born out of frustration with finding only paid, third-party sof
 ## 🚀 How to Use
 
 ## 1. Repository Setup
-1.	 Download the latest release from the [Releases Page]([https://github.com/jj1eckhardt-beep/THE-ARCHIVIST/releases). Files needed are The-Archivist.ps1, and Launcher.bat in the same folder.
+1.	 Download the latest release from the [Releases Page](ttps://github.com/jj1eckhardt-beep/THE-ARCHIVIST/releases). Files needed are The-Archivist.ps1, and Launcher.bat in the same folder.
 2. 	I encourage you to open the files in Notepad and inspect the code for yourself first before executing.
 3.	 Run `Launcher.bat` to bypass execution policies and clear ghost Office processes.
 
