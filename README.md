@@ -50,7 +50,7 @@ This project was born out of frustration with finding only paid, third-party sof
 ## 🚀 How to Use
 
 ## 1. Repository Setup
-1.	 Download the latest release from the [Releases Page](ttps://github.com/jj1eckhardt-beep/THE-ARCHIVIST/releases). Files needed are The-Archivist.ps1, and Launcher.bat in the same folder.
+1.	 Download the latest release from the [Releases Page](https://github.com/jj1eckhardt-beep/THE-ARCHIVIST/releases). Files needed are The-Archivist.ps1, and Launcher.bat in the same folder.
 2. 	I encourage you to open the files in Notepad and inspect the code for yourself first before executing.
 3.	 Run `Launcher.bat` to bypass execution policies and clear ghost Office processes.
 
@@ -75,7 +75,7 @@ Index.html
 
 HTML and Docx Output with Headers side by side.
 
-<img width="969" height="557" alt="image" src="https://github.com/user-attachments/assets/ce2bdea3-845d-442e-bb7f-2652ddc5a3ce" />
+<img width="969" height="557" alt="image" src="https://github.com/user-attachments/assets/141e6e2a-cbfe-49c4-b750-2bf9dbaf3908" />
 
 
 ## 🖼️ Dashboard in Action
@@ -85,7 +85,6 @@ Processing...
 <img width="648" height="550" alt="image" src="https://github.com/user-attachments/assets/e6c66ef4-12f4-4781-9a2e-ae8d5760dcb0" />
 
 Done.
-
 <img width="625" height="590" alt="image" src="https://github.com/user-attachments/assets/19cd14f7-df54-4f55-92aa-e59942172d8f" />
 
 ## ⚖️ License & Disclaimer
