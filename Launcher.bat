@@ -1,4 +1,6 @@
 @echo off
+echo Cleaning up existing Office processes...
+taskkill /F /IM winword.exe /T 2>nul
+taskkill /F /IM outlook.exe /T 2>nul
 echo Running conversion script...
-:: This runs the script in your normal user space matching your Office install
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0The-Archivist.ps1"
