@@ -1,7 +1,7 @@
 # THE ARCHIVIST 
 ### Universal Outlook Email Archival Suite:
 
-Is a high-integrity archival tool designed to transform Outlook `.msg` files into permanent, searchable, and sortable digital libraries.
+Is a high-integrity archival tool designed to transform Outlook `.msg` or `.pst` files into permanent, searchable, and sortable digital libraries.
 
 A lightweight, free automation tool to batch convert Microsoft Outlook `.msg` files into universal `.html`, modern Word `.docx`, or plain text documents while handling any attached files as selected. 
 
@@ -32,48 +32,60 @@ This project was born out of frustration with finding only paid, third-party sof
  
  **Paperclip Quick-Links:** For HTML archives, paperclip icons (📎) provide one-click access to Email parent folder containing .html and attachments.  Optimized for high-integrity text and attachment archival (perfect for students, educators, and project managers).
  
- **Universal Compatibility:** Self-contained and ultra-portable. The Index uses pure HTML/JS, meaning it works in any browser, on any device, forever—no internet connection or 
+ **Universal Compatibility:** Self-contained and ultra-portable. The Index uses pure HTML/JS, meaning it works in any browser, on any device, forever—no internet connection required.
 
 ## 📋 Prerequisites
  Because this script currently uses COM object automation to tap into native desktop applications, you must have the following installed on your Windows machine:
+
+ **Windows 10/11**
+
  **Microsoft Outlook** (Desktop application)
  
  **Microsoft Word** (Desktop application)
  
- **PowerShell** (Built into Windows)
+ **PowerShell 5.1** (Built into Windows)
 
-*Note: Outlook and Word are only required on the host machine performing the conversion. (For Now) The finished documents can be opened on any computer using free software like LibreOffice!*
+*Note: Outlook and Word are only required on the host machine performing the conversion. (For Now) The finished documents can be opened on any computer using any browser or free software like LibreOffice!*
 
 ## 🚀 How to Use
 
 ## 1. Repository Setup
-1. Download files from this repository, (the `Latest.ps1` script and the `Launcher.bat` file) and place them into a folder.  
-Or, download the .zip file and extract to a location of your choice.  
-2. I encourage you to open the files in Notepad and inspect the code first before executing.
+1.	 Download the latest release from the [Releases Page](https://github.com). Files needed are The-Archivist.ps1, and Launcher.bat in the same folder.
+2. 	I encourage you to open the files in Notepad and inspect the code for yourself first before executing.
+3.	 Run `Launcher.bat` to bypass execution policies and clear ghost Office processes.
 
-## 2. Open the UI
-Open the Launcher.bat file (It handles permissions and launching the UI). 
+## 2. Open the UI and make selections
+1.	Execute the Launcher.bat file (It handles Admin permissions and launching the UI). 
+2. 	Use MASTER and ARCHIVE buttons to set the desired folder paths.	
+3.	 Use Radio buttons and Checkboxes to configure the desired output format and selections.
 
 ## 3. Execute
-1.	Use MASTER and ARCHIVE buttons to set the desired folder paths.
-2.	Use Radio buttons and Checkboxes to configure the desired output format and selections.
-3.	Start Archival Process, ABORT will pause, Start will resume and continue until finished.
-4.	Reset clears selections.
+1. 	Click Start Archival Process, ABORT will pause, Start Archival Process again will resume and continue until finished.
+2. 	Reset clears selections.
+3.	After finished, your converted files can now be opened, moved, and viewed on any computer.
    
 ## 🖥️ System Screenshots
 UI Paths Set and Ready.
-<img width="1777" height="888" alt="image" src="https://github.com/user-attachments/assets/00a9d78f-36be-499d-9c46-e9aa9e8a4dfb" />
+
+<img width="1209" height="596" alt="image" src="https://github.com/user-attachments/assets/bee393dc-5ac6-457f-a829-d48ab4b11e9c" />
+
 Index.html
-<img width="1717" height="1247" alt="image" src="https://github.com/user-attachments/assets/96f3a260-6c53-4570-8a34-fd6acb99a594" />
+
+<img width="1168" height="837" alt="image" src="https://github.com/user-attachments/assets/e622468c-42a0-4779-872a-fe9051c9e40b" />
+
 HTML and Docx Output with Headers side by side.
-<img width="1824" height="950" alt="image" src="https://github.com/user-attachments/assets/3581ccc2-c913-4197-9087-6ef84e129b22" />
+
+<img width="969" height="557" alt="image" src="https://github.com/user-attachments/assets/ce2bdea3-845d-442e-bb7f-2652ddc5a3ce" />
+
 
 ## 🖼️ Dashboard in Action
 Processing...
-<img width="1708" height="866" alt="image" src="https://github.com/user-attachments/assets/fbbfa6ac-a877-4c17-9dca-642efcf95f51" />
-<img width="1000" height="849" alt="image" src="https://github.com/user-attachments/assets/5dd0a938-d978-4b87-ab69-7702ddbae85a" />
+
+<img width="1202" height="537" alt="image" src="https://github.com/user-attachments/assets/06772ff8-b0d0-4866-9f64-b8b3fac5d72d" />
+<img width="648" height="550" alt="image" src="https://github.com/user-attachments/assets/e6c66ef4-12f4-4781-9a2e-ae8d5760dcb0" />
+
 Done.
-<img width="992" height="882" alt="image" src="https://github.com/user-attachments/assets/9c26bcd3-ddaa-43d6-acef-d63dafca69fc" />
+<img width="625" height="590" alt="image" src="https://github.com/user-attachments/assets/19cd14f7-df54-4f55-92aa-e59942172d8f" />
 
 ## ⚖️ License & Disclaimer
 This project is licensed under the MIT License.
@@ -83,6 +95,4 @@ CAUTION: This software is still a work in progress and under development. Always
 ## ☕ Support the Project
 If "THE ARCHIVIST" saved you some time or made your conversion easier, feel free to help keep the gears turning!
 
-* [**Support via Ko-fi**](https://ko-fi.com/kofisupporter19535)
 * [**Support via Buy Me a Coffee**](https://www.buymeacoffee.com/jj1eckhardt)
-
